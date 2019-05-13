@@ -20,7 +20,7 @@ public class RetrofitUtil {
         return service;
     }
 
-    private static OkHttpClient client() {
+    public static OkHttpClient client() {
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
         interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
         OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
