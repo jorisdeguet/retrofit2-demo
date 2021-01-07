@@ -20,6 +20,11 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+// TODO binding
+// TODO version updates
+// TODO gestion des cookies
+// TODO une demo du profiler
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
